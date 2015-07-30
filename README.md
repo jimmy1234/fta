@@ -6,7 +6,10 @@ fta is a simple and Lightweight file transfer agent written by java,By using the
 
 # Usage
 1.start server by run startServer.sh
+
 2.call FtaClient in your java program, as following:
+
 FtaClient client = new FtaClient(host, port);
+
 long sendSize = client.copyAndCreateFile(srcFile, dstcFile);
 
